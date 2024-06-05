@@ -1,0 +1,6 @@
+.
+├── index.html
+├── project_structure.txt
+└── script.js
+
+1 directory, 3 files

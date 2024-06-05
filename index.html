@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GREEN-API Integration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input, button {
+            margin: 5px 0;
+            padding: 10px;
+            width: 100%;
+        }
+        #response {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>GREEN-API Integration</h1>
+    <label for="idInstance">idInstance</label>
+    <input type="text" id="idInstance" placeholder="Enter your idInstance">
+
+    <label for="apiTokenInstance">apiTokenInstance</label>
+    <input type="text" id="apiTokenInstance" placeholder="Enter your apiTokenInstance">
+
+    <button onclick="getSettings()">getSettings</button>
+    <button onclick="getStateInstance()">getStateInstance</button>
+    <button onclick="sendMessage()">sendMessage</button>
+    <button onclick="sendFileByUrl()">sendFileByUrl</button>
+
+    <div id="response">Response will be displayed here...</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
